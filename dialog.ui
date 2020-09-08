@@ -17,7 +17,7 @@
    <item row="0" column="0">
     <widget class="QLabel" name="intLabel">
      <property name="text">
-      <string>Integer</string>
+      <string>Beeping Integer</string>
      </property>
     </widget>
    </item>
@@ -27,7 +27,7 @@
    <item row="1" column="0">
     <widget class="QLabel" name="intSmallLabel">
      <property name="text">
-      <string>Integer 0-255</string>
+      <string>Beeping Integer 0-255</string>
      </property>
     </widget>
    </item>

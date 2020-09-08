@@ -1,5 +1,6 @@
 #include "dialog.h"
 #include "ui_dialog.h"
+#include "beepintvalidator.h"
 #include <QIntValidator>
 #include <QRegularExpressionValidator>
 #include <QDoubleValidator>
@@ -10,10 +11,10 @@ Dialog::Dialog(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QIntValidator* intValidator = new QIntValidator(ui->intLineEdit);
+    BeepIntValidator* intValidator = new BeepIntValidator(ui->intLineEdit);
     ui->intLineEdit->setValidator(intValidator);
 
-    QIntValidator* byteIntValidator = new QIntValidator(0,255,ui->intSmallLineEdit);
+    BeepIntValidator* byteIntValidator = new BeepIntValidator(0,255,ui->intSmallLineEdit);
     ui->intSmallLineEdit->setValidator(byteIntValidator);
 
     QRegularExpressionValidator* binaryValidator = new QRegularExpressionValidator(QRegularExpression("[01]{1,8}"),ui->binLineEdit);

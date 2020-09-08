@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        beepintvalidator.cpp \
         main.cpp \
         dialog.cpp
 
 HEADERS += \
+        beepintvalidator.h \
         dialog.h
 
 FORMS += \
