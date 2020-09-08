@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>542</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="intLabel">
+     <property name="text">
+      <string>Integer</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="intLineEdit"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="intSmallLabel">
+     <property name="text">
+      <string>Integer 0-255</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="intSmallLineEdit"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="binLabel">
+     <property name="text">
+      <string>Binary Byte</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="binLineEdit"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="hexLabel">
+     <property name="text">
+      <string>Hex Byte</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="hexLineEdit"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="floatLabel">
+     <property name="text">
+      <string>Float</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="floatLineEdit"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="lowercLabel">
+     <property name="text">
+      <string>Lower Case Only</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="lowerLineEdit"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="uporlowLabel">
+     <property name="text">
+      <string>Upper or Lower Case</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="upOrLowLineEdit"/>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="phoneLabel">
+     <property name="text">
+      <string>Phone aaa-bbb-cccc</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="phoneLineEdit"/>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
